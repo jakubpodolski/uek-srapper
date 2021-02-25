@@ -1,5 +1,5 @@
 const rp = require('request-promise');
-const URL = 'http://planzajec.uek.krakow.pl/index.php?typ=G&id=190301&okres=1&fbclid=IwAR2ejJ2e87Dy2QNG7I73E0Jfpc4gmTX3NlFBaMRnUIRR7C3yLZk6s4XzBFI';
+const URL = 'http://planzajec.uek.krakow.pl/index.php?typ=G&id=190311&okres=1';
 const [LECTURE, CLASSES, FOREIGN] = [
   'wykład',
   'ćwiczenia',
