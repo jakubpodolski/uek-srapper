@@ -62,7 +62,12 @@ const getClasses = () => {
           'attendees': [],
           'reminders': {
             'useDefault': false,
-            'overrides': [],
+            'overrides': [
+              {
+                method: 'popup',
+                minutes: 30
+              }
+            ],
           },
         };
 
